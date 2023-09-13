@@ -1,2 +1,2 @@
-# homebrew-espanso
-Homebrew cask for the [Espanso](https://espanso.org) tool on macOS.
+# homebrew-cocmd
+Homebrew cask for the [Cocmd](https://cocmd.org) tool on macOS.
