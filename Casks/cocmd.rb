@@ -1,12 +1,12 @@
 cask "cocmd" do
-  version "1.0.8"
+  version "1.0.9"
 
   if Hardware::CPU.intel?
     url "https://github.com/Moshe-Roth/cocmd/releases/download/v#{version}/Cocmd-Mac-Intel.zip"
-    sha256 "583f95f76a0469e30aeca52a17479f6c7515e77069aaa165f86048fcf0f50bfe"
+    sha256 "08b082865bd2149ad08f871ffcbfcbc4934b278985fb19f21c7a55e32a90fd31"
   else
     url "https://github.com/Moshe-Roth/cocmd/releases/download/v#{version}/Cocmd-Mac-M1.zip"
-    sha256 "da8e3ba5a3322e0a2dbec43150ef3b42d312475d3602761989acca92d4964673"
+    sha256 "0052545e19be683dfbd25bc7f0765020b318896ac491018562eada0f17d66777"
   end
 
   name "Cocmd"
