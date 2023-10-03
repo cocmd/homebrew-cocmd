@@ -3,10 +3,10 @@ cask "cocmd" do
 
   if Hardware::CPU.intel?
     url "https://github.com/Moshe-Roth/cocmd/releases/download/v#{version}/Cocmd-Mac-Intel.zip"
-    sha256 "7536cba5202c914896d3ac0f4a1c8240dbb2566776330b9d8996747862f0e43f"
+    sha256 "8d2ba4112af7cbb7d0f3617c59f585888e0e3a20dc7fb5640ad4c9970e646d40"
   else
     url "https://github.com/Moshe-Roth/cocmd/releases/download/v#{version}/Cocmd-Mac-M1.zip"
-    sha256 "02c70e0f904fc65bb6b7188d4e6955ce34ab2d3805c8d152f222103e83a2d445"
+    sha256 "1337c932937ff5202164e96109f23e298de1abacdceaa45fcab61f4d83ebb015"
   end
 
   name "Cocmd"
