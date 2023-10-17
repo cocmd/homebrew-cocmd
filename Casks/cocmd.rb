@@ -1,12 +1,12 @@
 cask "cocmd" do
-  version "1.0.63"
+  version "1.0.64"
 
   if Hardware::CPU.intel?
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-x86_64-apple-darwin.tar.gz"
-    sha256 "6615568380ff46f39ff132cbb85cf74195f69078a62aa443e58016fcfe8aa500"
+    sha256 "fae7d694a3040b88fd3a65c2f0d8312506e0f11af0e2095402765030529e4e17"
   else
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-aarch64-apple-darwin.tar.gz"
-    sha256 "d3f40f084b083d5cebfdbf5541f45ecf1411ef594a7fa56a6187504a22593034"
+    sha256 "77aa8b1a285ce19d4e61c50846fe21b771c78a026127f6f2f615d89e1f210c1b"
   end
 
   name "Cocmd"
