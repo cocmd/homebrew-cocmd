@@ -12,11 +12,10 @@ class Cocmd < Formula
     sha256 "a3cd47272d52b34ed5e86449b48deb03e32336684625dade0a35406a66b52129"
   end
 
-  name "cocmd"
   desc "Streamlined Command Line Operations for Dev Teams"
   homepage "https://cocmd.org/"
 
-  # def install
-  #   bin.install "cocmd"
-  # end
+  def install
+    bin.install "cocmd"
+  end
 end
