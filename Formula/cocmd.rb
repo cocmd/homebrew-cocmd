@@ -1,4 +1,4 @@
-class CocmdBin < Formula
+class Cocmd < Formula
   version "1.0.66"
 
   if Hardware::CPU.intel?
@@ -16,6 +16,4 @@ class CocmdBin < Formula
   def install
     bin.install "cocmd"
   end
-
-  zap trash: "~/.cocmd"
 end
