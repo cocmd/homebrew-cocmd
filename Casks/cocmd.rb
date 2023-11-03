@@ -13,7 +13,9 @@ cask "cocmd" do
   desc "Streamlined Command Line Operations for Dev Teams"
   homepage "https://cocmd.org/"
 
-  app "cocmd"
+  def install
+    bin.install "cocmd"
+  end
 
-  zap trash: "~/Library/Caches/cocmd"
+  zap trash: "~/.cocmd"
 end
