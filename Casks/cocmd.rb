@@ -1,5 +1,5 @@
 cask "cocmd" do
-  version "1.0.68"
+  version "1.0.66"
 
   if Hardware::CPU.intel?
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-x86_64-apple-darwin.tar.gz"
