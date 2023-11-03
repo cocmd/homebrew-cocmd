@@ -16,7 +16,7 @@ class Cocmd < Formula
   desc "Streamlined Command Line Operations for Dev Teams"
   homepage "https://cocmd.org/"
 
-  def install
-    bin.install "cocmd"
-  end
+  # def install
+  #   bin.install "cocmd"
+  # end
 end
