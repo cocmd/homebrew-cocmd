@@ -1,12 +1,12 @@
 class Cocmd < Formula
-  version "1.0.73"
+  version "1.0.74"
 
   if Hardware::CPU.intel?
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-x86_64-apple-darwin.tar.gz"
-    sha256 "1fb06801d71975f770958641c0a8f5bb3c783da6154a34111b6fdbff7bb9db0c"
+    sha256 "96c0d9d7e377a1e7698cda2e6e56ee1b3e5775d5a85b0a86ccb5df8fcbe34fbc"
   else
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-aarch64-apple-darwin.tar.gz"
-    sha256 "b3f26365206e2c8bef555c62e744925ac51d378669843d19b02b79723fa6b3f3"
+    sha256 "2cc67b1e62f440f81a47bf5457348e1cf266400aec7058b101f5c65a62947c3f"
   end
 
   desc "Streamlined Command Line Operations for Dev Teams"
@@ -15,5 +15,4 @@ class Cocmd < Formula
   def install
     bin.install "cocmd"
   end
-
 end
