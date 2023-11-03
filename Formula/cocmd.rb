@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Cocmd < Formula
   version "1.0.66"
 
