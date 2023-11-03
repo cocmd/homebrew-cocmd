@@ -1,21 +1,19 @@
-# typed: false
-# frozen_string_literal: true
-
-class Cocmd < Formula
-  version "1.0.66"
+cask "cocmd" do
+  version "1.0.71"
 
   if Hardware::CPU.intel?
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-x86_64-apple-darwin.tar.gz"
-    sha256 "9f9c4e4a4166b754d8a33605a6ecb24120e54257b8055e8a9aee190e3d908562"
+    sha256 "38c9eccbe268231408d2a7747cf3451882809aeefe776281a366a56cf9ccb878"
   else
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-aarch64-apple-darwin.tar.gz"
-    sha256 "a3cd47272d52b34ed5e86449b48deb03e32336684625dade0a35406a66b52129"
+    sha256 "b8fe894bcf1e3f7070baffe2242da64f2eac3e8ebc6df2c35ddaecf5a5ade3c9"
   end
 
+  name "Cocmd"
   desc "Streamlined Command Line Operations for Dev Teams"
   homepage "https://cocmd.org/"
 
-  def install
-    bin.install "cocmd"
-  end
+  app "cocmd"
+
+  zap trash: "~/Library/Caches/cocmd"
 end
