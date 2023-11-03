@@ -1,4 +1,4 @@
-class CocmdBin < Formula
+class cocmd < Formula
   version "1.0.66"
 
   if Hardware::CPU.intel?
