@@ -14,6 +14,6 @@ class Cocmd < Formula
   homepage "https://cocmd.org/"
 
   def install
-    bin.install "cocmd"
+    bin.install "kubecolor"
   end
 end
