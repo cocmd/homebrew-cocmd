@@ -1,12 +1,12 @@
 class Cocmd < Formula
-  version "1.0.81"
+  version "1.0.82"
 
   if Hardware::CPU.intel?
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-x86_64-apple-darwin.tar.gz"
-    sha256 "c353cf0c67d41cf53b6b55a4bdb61690ab69266cd6fedfcdd3c28f11cf5cae4d"
+    sha256 "fd99569a3d5bb58d64eef9d695d8560fbc4373e7a52370b466a05fcd2fdeb9ee"
   else
     url "https://github.com/cocmd/cocmd/releases/download/v#{version}/cocmd-aarch64-apple-darwin.tar.gz"
-    sha256 "6dca96e2d9ce0dc5065e0146782b09b825747d69cab3b602d987afe338e3933c"
+    sha256 "4cf7ac33fda6019bfeef5a316026fcd739b61b44ec6a8e6e6bb9a7cf0317da93"
   end
 
   desc "Streamlined Command Line Operations for Dev Teams"
